@@ -1,9 +1,9 @@
 import random
+import tkinter as tk
 import pygame # pylint: disable=unused-import
 import const
-import tkinter as tk
-from tkinter.filedialog import askopenfilename
 from tkinter import simpledialog
+from tkinter.filedialog import askopenfilename
 # from pygame.locals import *
 
 def update(mainscreen, canvas, grid_main, width, height):
